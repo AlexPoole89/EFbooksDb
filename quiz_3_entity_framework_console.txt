@@ -1,0 +1,33 @@
+Quiz 3 - Entity Framework
+
+Create console project Quiz3Books.
+
+Create entity as per class below and add the necessary annotations.
+
+class Book {
+	int Id; // Primary Key, Identity
+	String title; // 2-50 characters
+	String author; // 2-50 characters
+	Date published; // valid date 1700-2100 inclusive
+}
+
+You will need to create a class that inherits from DbContext like you did in class.
+Call it LibraryDbContext.
+
+class LibraryDbContext : DbContext { ... }
+
+Your program will display and implement the following menu:
+
+Make a choice[0-5]:
+1. Add book
+2. List all books (with Ids)
+3. Delete book by Id
+4. Modify a book by Id
+5. List all books from oldest to newest using LINQ
+6. Find a book by author name or title using LINQ
+0. Exit
+Enter your choice: _
+
+
+
+
